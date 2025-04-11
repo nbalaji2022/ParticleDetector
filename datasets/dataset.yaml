@@ -1,9 +1,8 @@
 
 # Synapse detection dataset
-path: /Users/balaji.karrupuswamy/Downloads/Unet-CNN-main/datasets
-train: images/train
-val: images/val  # Changed from 'validate' to 'val' to match YOLOv8 requirements
-
+path: C:\\Users\\Nakul Balaji\\OneDrive\\Documents\\GitHub\\DetechParticle\\datasets
+train: images\train
+val: images\val
 
 # Classes
 nc: 2  # number of classes

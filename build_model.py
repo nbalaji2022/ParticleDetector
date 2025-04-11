@@ -65,7 +65,8 @@ dataset_path = os.path.join(script_dir, "datasets", "dataset.yaml")
 results = model.train(
     batch=8,
     device="cpu",
-    data="/Users/balaji.karrupuswamy/Downloads/Unet-CNN-main/datasets/dataset.yaml",
+    data="C:\\Users\\Nakul Balaji\\PycharmProjects\\Immunogold Particle Labeling - Unet Based CNN\\synapse_dataset\\dataset.yaml",
     epochs=7,
     imgsz=120,
 )
+
