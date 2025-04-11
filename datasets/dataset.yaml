@@ -1,0 +1,10 @@
+
+# Synapse detection dataset
+path: /Users/balaji.karrupuswamy/Downloads/Unet-CNN-main/datasets
+train: images/train
+val: images/val  # Changed from 'validate' to 'val' to match YOLOv8 requirements
+
+
+# Classes
+nc: 2  # number of classes
+names: ['6nm', '12nm']  # class names
