@@ -1,0 +1,9 @@
+
+# Synapse detection dataset
+path: C:\\Users\\Nakul Balaji\\OneDrive\\Documents\\GitHub\\DetechParticle\\datasets
+train: images\train
+val: images\val
+
+# Classes
+nc: 2  # number of classes
+names: ['6nm', '12nm']  # class names

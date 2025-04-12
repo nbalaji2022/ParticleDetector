@@ -65,8 +65,27 @@ dataset_path = os.path.join(script_dir, "datasets", "dataset.yaml")
 results = model.train(
     batch=8,
     device="cpu",
-    data="C:\\Users\\Nakul Balaji\\PycharmProjects\\Immunogold Particle Labeling - Unet Based CNN\\synapse_dataset\\dataset.yaml",
+    data="C:\\Users\\Nakul Balaji\\OneDrive\\Documents\\GitHub\\DetechParticle\\datasets\\dataset.yaml",
     epochs=7,
     imgsz=120,
 )
 
+
+
+# results = model.predict('C:\\Users\\Nakul Balaji\\OneDrive\\Documents\\GitHub\\DetechParticle\\datasets\\images\\train\\train_0.jpg')
+#
+# import matplotlib as plt
+# import cv2
+#
+# for result in results:
+#     img_with_mask = result.plot()  # This returns an array (BGR by default)
+#
+#     # Convert BGR (OpenCV format) to RGB for matplotlib
+#     img_rgb = cv2.cvtColor(img_with_mask, cv2.COLOR_BGR2RGB)
+#
+#     # Show image
+#     plt.figure(figsize=(8, 8))
+#     plt.imshow(img_rgb)
+#     plt.title("YOLOv8 Segmentation Prediction")
+#     plt.axis('off')
+#     plt.show()
